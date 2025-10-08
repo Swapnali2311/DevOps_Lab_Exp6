@@ -9,7 +9,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Cloning project from GitHub...'
-                git branch: 'main', url: 'https://github.com/<youruser>/web-ci-cd-demo.git'
+                git branch: 'main', url: 'https://github.com/Swapnali2311/DevOps_Lab_Exp6.git'
+
             }
         }
 
